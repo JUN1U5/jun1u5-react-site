@@ -1,0 +1,315 @@
+/* ======================================================================== */
+/* my custom css */
+/*========================================================================= */
+
+.column-2 {
+  height: auto;
+  min-height: 100%;
+  background-color: transparent;
+  color: #fff;
+  line-height: 100%;
+}
+
+.column-3 {
+  position: absolute;
+  right: auto;
+  top: 75%;
+  height: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  object-fit: fill;
+  background-color: #fff;
+}
+
+/* Hero section */
+
+.hero-section {
+  position: relative;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  background-color: #82727f;
+}
+
+.hero-image {
+}
+
+.hero-content {
+  padding-left:50%;
+}
+
+.title-wrapper {
+  height: 250px;
+  width: 500px;
+  margin: 10em 0 0 6em;
+  position:fixed;
+}
+
+/* Headings */
+
+.main-h1 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #000;
+  font-size: 100px;
+  line-height: 95px;
+  font-weight: 400;
+  color: #100d0f;
+}
+
+.label-h2 {
+  font-family: "Open Sans", sans-serif; 
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #100d0f;
+}
+
+.main-h2 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 400;
+  color: #100d0f;
+}
+
+.main-h2-white {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* Sections */
+
+.about-section {
+  scroll-behavior: smooth;
+  overflow: hidden;
+  display: flex;
+  height: 80vh;
+  max-width: 100%;
+  max-height: 100vh;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 5px 0px;
+  border-color: #100d0f;
+  padding-left:50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2vw;
+  line-height: 1.5em;
+  font-weight: 400;
+  color: #100d0f;
+  padding: 5%;
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 30px;
+  display: block;
+}
+
+.skills-p {
+  font-family: "Open Sans", sans-serif;
+  /* font-size: 1.5vw;
+  line-height: 1.5em; */
+  font-weight: 400;
+  color: #100d0f;
+  padding-left: 5%;
+  text-transform: uppercase;
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 30px;
+  display: block;
+}
+
+.portfolio-section {
+  scroll-behavior: smooth;
+  overflow: hidden;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  position: relative;
+  max-width: 100%;
+  background-color: #DCE1E9;
+  padding: 5%;
+}
+
+/* Cards */
+
+.card-wrapper {
+  width: 100%;
+  margin-top: 0;
+  display: flex;
+}
+
+.card {
+  background-color: ;
+  color: #272727;
+  padding: 0px;
+  margin: 10px;
+  border-radius: 10px 10px 0px 0px;
+  border: 0px;
+  border-color: #100d0f;
+  border-style: solid;
+  max-width: 380px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.card:hover {
+  transition: 200ms;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card-text {
+  padding: 0 5%;
+  display: block;
+  flex-wrap: nowrap;
+}
+
+.card-title {
+  padding: 5% 5% 0;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.card-img {
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+}
+
+.card-footer {
+  border-top-style: none;
+}
+
+.badge {
+  margin: 2% 2% 0 0;
+}
+
+/*
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 3;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 3;
+  }
+} */
+
+/* FONT FACES */
+
+@font-face {
+  font-family: "gt-sectra-book";
+  src: url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59c9a409bdb58c0001ead9e0_gt-sectra-regular-webfont.woff2")
+      format("woff2"),
+    url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59c9a4091931040001332684_gt-sectra-regular-webfont.woff")
+      format("woff"),
+    url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59c9a409bdb58c0001ead9e1_sectra.ttf")
+      format("truetype"),
+    url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59c9a409b5fc1c000144715f_GT-Sectra-Book.otf")
+      format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "trade-gothic-extended";
+  src: url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59c9a4bcec240f0001b10641_Trade%20Gothic%20Extended.woff2")
+      format("woff2"),
+    url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59c9a4bcbdb58c0001eada08_TradeGothicLTStd-Extended.woff")
+      format("woff"),
+    url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59c9a4bcb5fc1c000144717e_Trade%20Gothic%20Extended.ttf")
+      format("truetype"),
+    url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59c9a4bc487351000136af68_TradeGothicLTStd-Extended.otf")
+      format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Akzidenz Grotesk Regular";
+  src: url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59caf857e4dab000012d5521_AkzidenzGrotesk-Regular.woff2")
+      format("woff2"),
+    url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59caf857899ef10001054b8b_AkzidenzGrotesk-Regular.woff")
+      format("woff"),
+    url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59caf8574c2e3f00014ff852_AkzidenzGrotesk-Regular.ttf")
+      format("truetype"),
+    url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59caf857956fc000018294b7_AkzidenzGrotesk-Regular.otf")
+      format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59cafae5899ef10001054c0a_Source Sans Pro.woff2")
+      format("woff2"),
+    url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59cafae5956fc000018296ef_Source Sans Pro.eot")
+      format("embedded-opentype"),
+    url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59cafae5e4dab000012d569e_Source Sans Pro.woff")
+      format("woff"),
+    url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59cafae5d7d51800012eb837_Source Sans Pro.ttf")
+      format("truetype"),
+    url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59cafae54c2e3f00014ff99e_Source Sans Pro.otf")
+      format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Akzidenz Grotesk Regular";
+  src: url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59caf857d7d51800012eb79e_AkzidenzGrotesk-Regular.eot")
+    format("embedded-opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/5a277907ae0b6700011659e9_Source Sans Pro-Bold.eot")
+      format("embedded-opentype"),
+    url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/5a277907ae0b6700011659ea_Source Sans Pro-Bold.woff")
+      format("woff"),
+    url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/5a277907da590200018f401c_Source Sans Pro-Bold.ttf")
+      format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59c9a663bdb58c0001eadcd1_Oswald-Book.woff")
+      format("woff"),
+    url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59c9a663b5fc1c000144733f_Oswald-Regular.ttf")
+      format("truetype"),
+    url("https://uploads-ssl.webflow.com/59c5c3e797139c000117aa12/59c9a663193104000133271e_Oswald-Regular.otf")
+      format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+
+/* Animations */
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
