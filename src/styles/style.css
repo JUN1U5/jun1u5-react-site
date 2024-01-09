@@ -99,6 +99,7 @@
   padding-left:50%;
   align-items: center;
   justify-content: center;
+  padding:10% 5% 10% 50%;
 }
 
 .about-p {
@@ -107,11 +108,11 @@
   line-height: 1.5em;
   font-weight: 400;
   color: #100d0f;
-  padding: 5%;
   max-width: 600px;
   font-size: 18px;
   line-height: 30px;
   display: block;
+  white-space:pre-line;
 }
 
 .skills-p {
@@ -120,10 +121,9 @@
   line-height: 1.5em; */
   font-weight: 400;
   color: #100d0f;
-  padding-left: 5%;
   text-transform: uppercase;
   max-width: 600px;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 30px;
   display: block;
 }
